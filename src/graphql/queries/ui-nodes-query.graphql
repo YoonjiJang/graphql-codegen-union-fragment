@@ -1,0 +1,7 @@
+#import '../fragments/ui-node-fragment.graphql'
+
+query UINodesQuery {
+  uiNodes {
+    ...UINodeFragment
+  }
+}

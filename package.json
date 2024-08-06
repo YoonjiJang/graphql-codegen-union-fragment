@@ -1,0 +1,24 @@
+{
+  "name": "graphql-codegen-union-fragment",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "graphql-codegen": "graphql-codegen --config codegen.ts",
+    "tsc": "tsc --noEmit",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "graphql": "^16.9.0"
+  },
+  "devDependencies": {
+    "@graphql-codegen/cli": "5.0.2",
+    "@graphql-codegen/near-operation-file-preset": "3.0.0",
+    "@graphql-codegen/typescript": "4.0.9",
+    "@graphql-codegen/typescript-operations": "4.2.3",
+    "typescript": "^5.5.0"
+  }
+}

@@ -1,0 +1,10 @@
+fragment UINodeFragment on UINode {
+  ... on TextUINode {
+    id
+    content
+  }
+  ... on ImageUINode {
+    id
+    url
+  }
+}

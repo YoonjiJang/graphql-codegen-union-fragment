@@ -1,0 +1,15 @@
+union UINode = TextUINode | ImageUINode
+
+type TextUINode {
+  id: ID!
+  content: String
+}
+
+type ImageUINode {
+  id: ID!
+  url: String
+}
+
+type Query {
+  uiNodes: [UINode]
+}
